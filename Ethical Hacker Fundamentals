@@ -1,0 +1,17 @@
+
+Ethical Hacker Fundamentals - Certificación Ethical Hacking Associate E|HA - PUE
+
+--------------------
+Pasos:
+
+Encontrar objetivos en INFOCIF(Página web que muestra el ranking de empresas de España)
+Información en RIPE o IANA(https://www.iana.org/)
+
+
+
+Nuevos comandos:
+$ls
+$ripe.db.gz
+$zcat ripe.db.gz |more   ----> hacer un cat a un archivo .gz
+$zcat ripe.db.gz |grep -i "municipalidad"  ---> la "i" es para ignorar case sensitive.
+$zcat ripe.db.gz |grep -i "municipalidad" -B 2  ---> la "B" de before dos lineas
